@@ -29,3 +29,8 @@ Your final notebook must:
 - Save a CSV of all retrieved data and a PNG image for each scatter plot.
 
 ## Observation of the data:
+1. When pulling random cities from the OpenWeatherMap API and looking at its data, you can see that the weather conditions in the North appear more harsh in comparison to the South. The max temperature is highest at 0 latitude and begins to drop as the Latitude decreases.
+
+2. You can also see that there appears to be more humidity in some areas of the world, particularly above 40 degrees Latitude.
+
+3. When looking at the relationship between City Latitude and Wind Speed, it appears to show that there isn't really high wind speeds all across the globe. Many of the wind speeds are less than 15 mph. For the parts of the world that are between 0-80 degrees Latitude, most of their wind speeds are under 10 mph.
