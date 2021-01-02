@@ -43,6 +43,21 @@ Your final notebook must:
 Using jupyter-gmaps and the Google Places API for this part of the assignment,:
 - Create a heat map that displays the humidity for every city from the part I of the homework.
 
+![image](https://user-images.githubusercontent.com/69765842/103466232-18282900-4d11-11eb-8735-3bbf6cab1ccb.png)
+
+- Narrow down the DataFrame to find your ideal weather condition. For example:
+  - A max temperature lower than 80 degrees but higher than 70.
+  - Wind speed less than 10 mph.
+  - Zero cloudiness
+  - Drop any rows that don't contain all three conditions. You want to be sure the weather is ideal.
+  
+ 
+  
+- Using Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
+- Plot the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.
+
+![image](https://user-images.githubusercontent.com/69765842/103466237-2b3af900-4d11-11eb-8fb2-85f40a6f9362.png)
+
 ## Observation of the data:
 1. When pulling random cities from the OpenWeatherMap API and looking at its data, you can see that the weather conditions in the North appear more harsh in comparison to the South. The max temperature is highest at 0 latitude and begins to drop as the Latitude decreases.
 
