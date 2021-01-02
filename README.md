@@ -33,6 +33,14 @@ After each plot, add a sentence or too explaining what the code is and analyzing
 
 After each pair of plots, explain what the linear regression is modeling such as any relationships you notice and any other analysis you may have.
 
+![image](https://user-images.githubusercontent.com/69765842/103467555-33e5fc00-4d1e-11eb-9e78-30f3399a5877.png)
+
+![image](https://user-images.githubusercontent.com/69765842/103467558-3c3e3700-4d1e-11eb-8838-41bc2d22751d.png)
+
+![image](https://user-images.githubusercontent.com/69765842/103467567-45c79f00-4d1e-11eb-9ac3-2fcc972ff34a.png)
+
+![image](https://user-images.githubusercontent.com/69765842/103467575-524bf780-4d1e-11eb-8f9a-920a8e8facd4.png)
+
 Your final notebook must:
 - Randomly select at least 500 unique (non-repeat) cities based on latitude and longitude.
 - Perform a weather check on each of the cities using a series of successive API calls.
