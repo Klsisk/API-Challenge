@@ -4,9 +4,20 @@
 In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
 1. Your first requirement is to create a series of scatter plots to showcase the following relationships:
 - Temperature (F) vs. Latitude
+
+![image](https://user-images.githubusercontent.com/69765842/103466242-34c46100-4d11-11eb-8587-d5fc96b7350e.png)
+
 - Humidity (%) vs. Latitude
+
+![image](https://user-images.githubusercontent.com/69765842/103466248-40b02300-4d11-11eb-9d36-d9f580aea6e6.png)
+
 - Cloudiness (%) vs. Latitude
+
+![image](https://user-images.githubusercontent.com/69765842/103466253-486fc780-4d11-11eb-8ea9-5b14b7c46dad.png)
+
 - Wind Speed (mph) vs. Latitude
+
+![image](https://user-images.githubusercontent.com/69765842/103466257-5291c600-4d11-11eb-8194-c2e7a6d293f4.png)
 
 After each plot, add a sentence or too explaining what the code is and analyzing.
 
@@ -27,6 +38,10 @@ Your final notebook must:
 - Perform a weather check on each of the cities using a series of successive API calls.
 - Include a print log of each city as it's being processed with the city number and city name.
 - Save a CSV of all retrieved data and a PNG image for each scatter plot.
+
+## Part II - VacationPy
+Using jupyter-gmaps and the Google Places API for this part of the assignment,:
+- Create a heat map that displays the humidity for every city from the part I of the homework.
 
 ## Observation of the data:
 1. When pulling random cities from the OpenWeatherMap API and looking at its data, you can see that the weather conditions in the North appear more harsh in comparison to the South. The max temperature is highest at 0 latitude and begins to drop as the Latitude decreases.
